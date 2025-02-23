@@ -9,7 +9,6 @@ public class SonesRandomGuess
                 final int MAX = 100;
 
                 int guess,random;
-                boolean rightG = false;
 
                 random  = MIN + (int)(Math.random() * MAX);
                 //guess = 0; //remove this line

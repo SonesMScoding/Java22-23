@@ -4,7 +4,7 @@ public class AcmePay
 {
     public static void main (String arg[])
     {
-    Scanner sc = new Scanner(System.in);
+    Scanner ss = new Scanner(System.in);
 
 int shift, hrsWorked , rplan; 
 rplan = 0;
@@ -12,10 +12,10 @@ rplan = 0;
 double hourlyPay = 0, regularPay, overtimePay = 0, totalPay = 0, retirement = 0, netPay = 0;
 
 System.out.println("Enter shift (1,2,3): ");
-shift = sc.nextInt();
+shift = ss.nextInt();
 
 System.out.println("Enter hour worked: ");
-hrsWorked = sc.nextInt();
+hrsWorked = ss.nextInt();
 
 if (shift==1)
 {
@@ -26,14 +26,14 @@ else if(shift == 2)
 {
 hourlyPay = 18.5;
 System.out.println("Do you want retirement plan(1 for yes, 2 for no)?");
-rplan = sc.nextInt();
+rplan = ss.nextInt();
 }
 
 else if (shift == 3)
 {
 hourlyPay = 18.5;
 System.out.println("Do you want retirement plan(1 for yes, 2 for no)?");
-rplan = sc.nextInt();
+rplan = ss.nextInt();
 }
 
 regularPay = hrsWorked*hourlyPay;
@@ -63,6 +63,8 @@ if(retirement != 0)
 }
 
 System.out.print("Net Pay = " + netPay);
+
+ss.close();
 
 }
 }

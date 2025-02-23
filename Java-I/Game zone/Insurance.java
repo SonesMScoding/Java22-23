@@ -21,6 +21,7 @@ public class Insurance
 
      calculatePremium(present, birth);
 
+        input.close();
     }
 
 
@@ -30,8 +31,8 @@ public class Insurance
         int decade;
         double premium;
 
-        (present-birth) / 10 = decade;
-        (decade + 15)20 = premium;
+        decade = (present - birth) / 10;
+        premium = (decade + 15) * 20;
 
         System.out.println("The premium is $" + premium);
 

@@ -24,6 +24,7 @@ public class debug3
       subtract(a, b);
       subtract(b, c);
       subtract(a, c);  
+      input.close();
    }
 
    

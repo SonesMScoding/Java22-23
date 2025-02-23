@@ -11,5 +11,6 @@ System.out.println("Awesome, and how many adult meals?");
 AdultChili = scanner.nextInt();
 double Total = ChildChili*4 + AdultChili*7 * 0.07;
 System.out.println("Alright, your total is $" + Total + ". Thank you, have a good day!");
+    scanner.close();
     }
 }

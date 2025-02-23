@@ -29,5 +29,6 @@ double GrandTotal = TotalB4Tax - AllDayCosts;
  System.out.println("Adult Profits: $" + AdultProfits);
  System.out.println("Child Profits: $" + ChildProfits);
 System.out.println("Hello master,today you have made $" + GrandTotal);
+    scanner.close();
     }
 }

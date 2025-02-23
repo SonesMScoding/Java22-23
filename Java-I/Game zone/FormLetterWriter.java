@@ -18,6 +18,7 @@ public class FormLetterWriter
         displaySalutation(fName);
         displaySalutation(fName, lName);
 
+    input.close();
 }
 
 public static void displaySalutation(String fName) 

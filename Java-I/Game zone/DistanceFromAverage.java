@@ -20,6 +20,7 @@ public class DistanceFromAverage{
             if(x < numbers.length){
                 System.out.println("Enter a numeric value or 9999 to quit >>");
             }
+            input.close();
         }
     if(x == 0){
         System.out.println("ERROR -  You did not enter any numbers." + "Calculations cannot be performed");
