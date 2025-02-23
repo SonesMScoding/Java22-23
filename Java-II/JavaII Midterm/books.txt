@@ -1,0 +1,20 @@
+Observer,4.99,Fiction
+The Angel Maker,20.59,Fiction
+Devoted,26.17,Fiction
+The Maidens,10.48,Fiction
+Her Perfect Family,5.99,Fiction
+The Love of My Life,12.99,Fiction
+Long Shadows,14.99,Fiction
+The Couple at Number 9,29.99,Fiction
+Lying Next to Me,4.99,Fiction
+The Jealousy Man and Other Stories,12.99,Fiction
+Salt: A World History,13.79,Non-Fiction
+Our National Parks,12.49,Non-Fiction
+Bees: Heroes of the Garden,25.06,Non-Fiction
+Eat for the Planet: Saving the World One Bite at a Time,16.62,Non-Fiction
+Fundamentals of Atmospheric Modeling,102.00,Non-Fiction
+Saving Time: Discovering a Life Beyond the Clock,24.06,Non-Fiction
+The Carbon Almanac: It’s Not Too Late,14.89,Non-Fiction
+Wasted: When Trash Becomes Treasure,39.31,Non-Fiction
+Tides: The Science and Spirit of the Ocean,14.19,Non-Fiction
+The Bat House Guide,24.95,Non-Fiction

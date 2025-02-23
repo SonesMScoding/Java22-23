@@ -1,0 +1,8 @@
+public class InchesToFeet {
+
+    public static void main(String[] args){
+        System.out.println(" is 7 feet and 2 inches ")
+
+    }
+
+}

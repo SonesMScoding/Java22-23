@@ -1,0 +1,44 @@
+import java.nio.file.*;
+import java.io.*;
+import java.util.Scanner;
+public class DisplaySelectedCustomersByName{
+
+   public static void main(String[] args)
+   {
+      Scanner in = new Scanner(System.in);
+      Path file =
+         Paths.get("CustomerList.txt");
+      String[] array = new String[4];
+      String s = "";
+      String delimiter = ",";
+      String searchLastN;
+      boolean wasFound = false;
+
+
+
+         InputStream input = new BufferedInputStream(Files.newInputStream(file));
+         BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+         System.out.println();        
+
+         System.out.print("Enter last name to search for >> ");
+         searchLastN = in.nextLine();
+         s = reader.readLine();
+         while(s != null)
+         {
+            array = s.split(delimiter);
+            if(searchLastN.equals(array[0]))
+            {
+               wasFound = true;
+               for(int x = 0; x < array.length; ++x)
+                  System.out.print(array[x] + "  ");
+               System.out.println();
+            }
+            s = reader.readLine();           
+         }
+         if(!wasFound)
+           System.out.println("No records found for " + searchLastN);
+         reader.close();
+
+   }
+}
+

@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class AddingRecursively
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(system.in);
+        int x, y, result;
+        String userInput;
+
+        System.out.print("Enter a number: ");
+        userInput = input.nextLine();
+        x = Interger.parseInt(userInput);
+
+        System.out.print("Enter a larger number: ");
+        userInput = input.nextLine();
+        y = Interger.parseInt(userInput);
+
+        result = sum(x, y);
+
+        System.outpintln("The sum of all the numbers between "+x+" and "+y+" is "+answer);
+
+
+    }
+
+    public int(int x, int y )
+    {
+        if(y>x)
+        return y + sum(x, y-1);
+    }
+}
